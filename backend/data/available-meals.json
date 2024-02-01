@@ -1,0 +1,142 @@
+[
+  {
+    "id": "m1",
+    "name": "Occasion Cake",
+    "price": "29.99",
+    "description": "Prepared with nuttela and berries.",
+    "image": "images/BirthdayCake.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "Occasion Cake with raspberries",
+    "price": "32.99",
+    "description": "Wraped with vanila cream and stuffed with banana.",
+    "image": "images/BirthdayCakeRasBerry.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Occasion Red Velvet",
+    "price": "47.99",
+    "description": "Red Vevlvet prepared by best kitchener with unique recipe.",
+    "image": "images/BirtdayRedVelvet.jpg"
+  },
+  {
+    "id": "m4",
+    "name": "Occasion Cake with Strawberries",
+    "price": "31.99",
+    "description": "Prepared with using whipped cream and stuffed with pineaple.",
+    "image": "images/BirthdayStrawberyCake.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "Brawnie Cake",
+    "price": "45.99",
+    "description": "Cooked by best kitchener.",
+    "image": "images/CakeBrawnie.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "Piece of Cake with blueberry",
+    "price": "11.99",
+    "description": "A juicy bluebbery and stuffed with blueberries.",
+    "image": "images/CakeBlackBerry.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "Bisquit with whipped cream",
+    "price": "5.99",
+    "description": "Soft bisquit with whipped cream and berries.",
+    "image": "images/CakeFruit.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "Bisquit with vanilla",
+    "price": "5.99",
+    "description": "Soft bisquit with Vanila.",
+    "image": "images/CakeVanila.jpg"
+  },
+  {
+    "id": "m9",
+    "name": "Sweet candy 6pcs.",
+    "price": "12.99",
+    "description": "Candy with extraordinary taste.",
+    "image": "images/ColoredSweet.jpg"
+  },
+  {
+    "id": "m10",
+    "name": "Creap with honey",
+    "price": "3.99",
+    "description": "Delicious creap with honey.",
+    "image": "images/CreapHoney.jpg"
+  },
+  {
+    "id": "m11",
+    "name": "Creap with strawberries",
+    "price": "4.99",
+    "description": "Delicious creap with strawberries.",
+    "image": "images/CreapStrawberry.jpg"
+  },
+  {
+    "id": "m12",
+    "name": "Donut",
+    "price": "4.99",
+    "description": "Our Donuts prepared with profferial donut kitchener with unique recipe.",
+    "image": "images/Donut.jpg"
+  },
+  {
+    "id": "m13",
+    "name": "Donut with nutella",
+    "price": "5.99",
+    "description": "Our Donuts prepared with profferial donut kitchener with unique recipe and this one is prepared with nutella.",
+    "image": "images/DonutBlackCream.jpg"
+  },
+  {
+    "id": "m14",
+    "name": "Donut with ice cream",
+    "price": "9.99",
+    "description": "Our Donuts prepared with profferial donut kitchener with unique recipe and this one is prepared with nutella and ice cream.",
+    "image": "images/DonutIceCream.jpg"
+  },
+  {
+    "id": "m15",
+    "name": "Donut with rose cream",
+    "price": "5.99",
+    "description": "Our Donuts prepared with profferial donut kitchener with unique recipe and this one is prepared with nutella and strawberry cream.",
+    "image": "images/DonutRoseCream.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "Wafle with strawberry",
+    "price": "14.99",
+    "description": "Excelent waffle with strawberries.",
+    "image": "images/StrawberryWafle.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "Piece of Black Velvet",
+    "price": "15.99",
+    "description": "Black Vevlvet prepared by best kitchener with unique recipe.",
+    "image": "images/VlevetBlack.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "Piece of Strwaberry Velvet",
+    "price": "15.99",
+    "description": "Black Vevlvet prepared by best kitchener with unique recipe.",
+    "image": "images/VelvetStrawberry.jpg"
+  },
+  {
+    "id": "m19",
+    "name": "White Velvet",
+    "price": "15.99",
+    "description": "White Vevlvet prepared by best kitchener with unique recipe.",
+    "image": "images/VelvetWhite.jpg"
+  },
+  {
+    "id": "m20",
+    "name": "Lemon Cheesecake",
+    "price": "9.99",
+    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
+    "image": "images/LemonBisquit.jpg"
+  }
+]
