@@ -18,7 +18,7 @@
     "name": "Occasion Red Velvet",
     "price": "47.99",
     "description": "Red Vevlvet prepared by best kitchener with unique recipe.",
-    "image": "images/BirtdayRedVelvet.jpg"
+    "image": "images/BirthdayRedVelvet.jpg"
   },
   {
     "id": "m4",
@@ -116,14 +116,14 @@
     "name": "Piece of Black Velvet",
     "price": "15.99",
     "description": "Black Vevlvet prepared by best kitchener with unique recipe.",
-    "image": "images/VlevetBlack.jpg"
+    "image": "images/VelvetBlack.jpg"
   },
   {
     "id": "m18",
     "name": "Piece of Strwaberry Velvet",
     "price": "15.99",
     "description": "Black Vevlvet prepared by best kitchener with unique recipe.",
-    "image": "images/VelvetStrawberry.jpg"
+    "image": "images/VelvetStrawberryRed.jpg"
   },
   {
     "id": "m19",

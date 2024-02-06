@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import DesertItem from './DesertItem';
 
 export default function Deserts() {
     const [loadedDeserts, setLoadedDeserts] = useState([]);
@@ -20,7 +21,7 @@ export default function Deserts() {
     return(
         <ul id="deserts">
             {loadedDeserts.map((desert) => (
-                <li key={desert.id}>{desert.name}</li>
+                <DesertItem key={desert.id} desert={desert} />
             ))}
         </ul>
     )
