@@ -11,7 +11,6 @@ export default function Deserts() {
             if (!response.ok) {
     
             }
-            console.log(response)
             const deserts = await response.json();
             setLoadedDeserts(deserts);
         }

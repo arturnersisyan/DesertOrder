@@ -1,7 +1,15 @@
 import Button from "./UI/Button"
 import { currencyFormatter } from "../util/formatting" 
+import { useContext } from "react"
+import CartContext from "../store/CarContext";
 
 export default function DesertItem({desert}) {
+    const cartCtx = useContext(CartContext);
+
+    function handleAddDesertToCart() {
+        cartCtx.addItem(desert);
+    }
+
     return(
         <li className="desert-item">
             <article>
@@ -14,7 +22,7 @@ export default function DesertItem({desert}) {
                     <p className="desert-item-description">{desert.description}</p>
                 </div>
                 <p className="desert-item-actions">
-                    <Button>Add to Cart</Button>
+                    <Button onClick={handleAddDesertToCart}>Add to Cart</Button>
                 </p>
             </article>
         </li>
