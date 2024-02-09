@@ -1,21 +1,23 @@
-import { useState, useEffect } from 'react';
 import DesertItem from './DesertItem';
+import useHttp from '../hooks/useHttp';
+import Error from './Error';
+
+const requestConfig = {};
 
 export default function Deserts() {
-    const [loadedDeserts, setLoadedDeserts] = useState([]);
+    const { 
+        data: loadedDeserts, 
+        isLoading, 
+        error 
+    } = useHttp('http://localhost:3000/deserts', requestConfig, []);
 
-    useEffect(() => {
-        async function fetchDeserts() {
-            const response = await fetch('http://localhost:3000/deserts');
-            
-            if (!response.ok) {
-    
-            }
-            const deserts = await response.json();
-            setLoadedDeserts(deserts);
-        }
-        fetchDeserts();
-    }, []);
+    if(isLoading) {
+        return <p>Fetching deserts...</p>;
+    }
+
+    if(error) {
+        return <Error title="Failed to fetch me" message={error}/>
+    }
 
     return(
         <ul id="deserts">
